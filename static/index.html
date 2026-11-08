@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Trace — расследование инцидентов</title><link rel="stylesheet" href="/style.css"></head>
+<body><header class="topbar"><a class="brand" href="/">trace<span>.</span></a></header>
+<main class="layout"><aside class="sidebar"><div class="sidebar-header"><h2>Инциденты</h2></div><div id="scenario-list" class="scenario-list"></div></aside>
+<section class="workspace"><div class="page-header"><div><h1 id="case-title">Загрузка…</h1></div><div class="case-meta"><span id="severity" class="severity"></span><span id="service" class="service"></span></div></div>
+<div class="workspace-grid"><section class="evidence"><div class="section-heading"><div><h2>События</h2></div><span id="event-count" class="event-count"></span></div><div class="events-head"><span>Время</span><span>Описание</span><span>Источник</span></div><div id="events"></div></section>
+<section class="analysis"><div class="section-heading"><div><h2>Анализ</h2></div></div><div id="result" class="result" aria-live="polite"><div class="empty"><h3>Анализ ещё не запущен</h3></div></div><div class="action-area"><button id="run" type="button">Запустить анализ</button></div></section></div></section></main><script src="/app.js"></script></body></html>
